@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Абдрахман</title>
+    <style>
+        body {
+            background-color: #5b3925; /* Цвет говна */
+            color: #d4bfa3; /* Немного контраста для текста */
+            font-family: "Comic Sans MS", cursive, sans-serif; /* Максимализм стиля */
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .contact-info, .contact-form, .social-links {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px solid #3d2819;
+            background-color: #4e342e;
+            display: inline-block;
+            width: 80%;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #3d2819;
+            border-radius: 5px;
+            background-color: #3d2819;
+            color: #d4bfa3;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            border: none;
+            background-color: #d4bfa3;
+            color: #3d2819;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+        a {
+            color: #d4bfa3;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Абдрахман</h1>
+    <img src="abdra.jpg" alt="Фото Абдрахмана">
+    <p>я пидорас</p>
+    <div class="contact-info">
+        <h2>Контактные данные</h2>
+        <p>Телефон: +7 747 659 97 67</p>
+    </div>
+    <div class="contact-form">
+        <h2>Свяжитесь со мной</h2>
+        <form action="mailto:sergunya@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Ваш email" required>
+            <textarea name="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+    <div class="social-links">
+        <h2>Соцсети</h2>
+        <a href="https://vk.com/id215116014" target="_blank">Мой ВК</a>
+    </div>
+</body>
+</html>
